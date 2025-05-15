@@ -7,23 +7,23 @@
   ```bash
   node -v
 
-1. Install project dependencies
+- 1. Install project dependencies
+  ```bash
+  npm install
 
-npm install
+- **2. Install Playwright browsers:**
+  ```bash
+  npx playwright install
 
-2. Install Playwright browsers:
+- 3. Use command to run all tests
+  ```bash
+  npm run runAllTests
 
-npx playwright install
-
-3. Use command to run all tests
-
-npm run runAllTests
-
-4. Run each test separately using scripts e.g.
-
-npm run runNewsletterTest
-npm run runBrokenLinksTest
-npm run runSitemapTest
+- 4. Run each test separately using scripts e.g.
+```bash
+  npm run runNewsletterTest
+  npm run runBrokenLinksTest
+  npm run runSitemapTest
 
 
 
