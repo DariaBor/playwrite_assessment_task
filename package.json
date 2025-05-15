@@ -2,7 +2,12 @@
   "name": "netlify-tests",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "runNewsletterTest": "npx playwright test tests/TC001-newsletter-tests.spec.ts" ,
+    "runBrokenLinksTest": "npx playwright test tests/TC003-broken-links-tests.spec.ts" ,
+    "runSitemapTest": "npx playwright test tests/TC002-sitemap-tests.spec.ts" ,
+    "runAllTests": "npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
